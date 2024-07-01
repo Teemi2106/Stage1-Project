@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meet Me</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>My Tech Goals for the Next 2 Years</h1>
+    </header>
+    <main>
+      <section id="profile">
+        <img
+          src="./profile.jpg"
+          alt="profile_picture"
+          id="profilePicture"
+          data-testid="slackProfilePicture"
+        />
+        <div class="child">
+          <h2>Profile</h2>
+          <h3>Name: <span>Gbenga Timi</span></h3>
+          <h3 data-testid="slackDisplayName">
+            Slack Name: <span>@Timmy</span>
+          </h3>
+          <h3 data-testid="currentTimeUTC">Time: <span id="time"></span></h3>
+          <h3 data-testid="currentDay">Day: <span id="day"></span></h3>
+          <h3 data-testid="slackEmail">
+            Email: <span>gbengatimi166@gmail.com</span>
+          </h3>
+          <a href="http://hng.tech/learn">hng.tech</a>
+          <a href="http://keyword.dog/">keyword.dog</a>
+          <a href="http://scrapeanyweb.site/">scrapeanyweb.site</a>
+        </div>
+      </section>
+
+      <section id="introduction">
+        <h2>Introduction</h2>
+        <p>
+          My name is Gbenga Timi, I'm a software developer and these are my
+          goals in the next two years:
+        </p>
+      </section>
+
+      <section id="frontend">
+        <h2>Frontend Development</h2>
+        <p>I want to explore and understand state management with Redux.</p>
+      </section>
+      <section id="datascience">
+        <h2>Data Science/Analysis</h2>
+        <p>
+          I want to learn Python and libraries like NumPy, pandas, and
+          Matplotlib. <br />
+          I want to study and apply deep learning techniques with TensorFlow or
+          PyTorch.
+        </p>
+      </section>
+      <section id="mobile">
+        <h2>Mobile Application Development</h2>
+        <p>
+          I want to build simple mobile applications. <br />
+          I want to publish at least one app to the Google Play Store or Apple
+          App Store.
+        </p>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024</p>
+    </footer>
+    <script src="./main.js"></script>
+  </body>
+</html>
